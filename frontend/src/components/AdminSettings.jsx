@@ -153,7 +153,7 @@ function AdminSettings({ releases, onCreated, onDeleteAll }) {
           <div className="mb-4">
             <h3 className="font-medium text-slate-900 dark:text-slate-100">Dados de teste</h3>
             <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-              Cria vários releases com dados diferentes.
+              +20
             </p>
           </div>
 
@@ -194,7 +194,7 @@ function AdminSettings({ releases, onCreated, onDeleteAll }) {
           <div className="mb-4">
             <h3 className="font-medium text-slate-900 dark:text-slate-100">Prioridades</h3>
             <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-              Prioridades aleatórias
+              teste cor dos cards
             </p>
           </div>
 
@@ -204,7 +204,7 @@ function AdminSettings({ releases, onCreated, onDeleteAll }) {
             disabled={isUpdating || releases.length === 0}
           >
             <Shuffle size={15} />
-            Randomizar prioridades
+            prioridades random
           </button>
         </div>
 
